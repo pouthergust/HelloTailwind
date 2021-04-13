@@ -18,66 +18,65 @@
 		-->
 </head>
 
-<body class="bg-gray-400">
-    <div class="grid grid-cols-1 justify-items-center">
+<body class="grid grid-cols-4 gap-4 bg-gray-400 md:grid-cols-8">
 
-        <header class="unwrap">
-            <div>
-                <img src="/img/fd.png">
-                <section class="bg-gray-600 text-center">
-                    <div class="">
-                        <h1>Leis do japão
-                            <span>por Gabriel Henrique</span>
-                        </h1><br>
-                    </div>
-                    <marquee>[Insira um texto muito legal aqui]</marquee>
-                </section>
-                <img src="/img/fc2.png">
-            </div>
-        </header>
+    <header class="col-span-8">
+        <div>
+            <img src="/img/fd.png" class="mx-auto">
+            <section class="text-center bg-gray-600">
+                <div class="py-5 pt-5">
+                    <h1 class="font-sans text-6xl font-semibold">Leis do japão
+                        <span class="text-sm text-white">por Gabriel Henrique</span>
+                    </h1>
+                </div>
+                <marquee>[Insira um texto muito legal aqui]</marquee>
+            </section>
+            <img src="/img/fc2.png" class="mx-auto">
+        </div>
+    </header>
 
-        <hr>
+    <hr class="col-span-4 col-start-3">
 
-        <main class="grid grid-cols-2 gap-4">
-            <div>
-                <article>
-                    <img src="/img/foto1.jpg" alt="Duelos">
-                    <h2>Duelos</h2>
-                    <p>Apesar de ser uma lei antiga, de 1889, desafiar alguém para um duelo ou duelar pode resultar em
-                        prisão,
-                        inclusive para quem apenas testemunhou o duelo. Aos duelistas, pena de 6 meses a 5 anos de
-                        prisão.Miyamoto Musashi e Sasaki Kojiro estariam presos se fosse nos dias de hoje. E por
-                        incrível
-                        que
-                        pareça, hoje em dia ainda tem gente que é presa por duelo</p>
-                </article>
-            </div>
+    <main class="grid grid-cols-2 col-span-4 col-start-3 gap-5 text-justify">
+        <div class="p-5 text-white bg-gray-500 bg-opacity-50 rounded-md">
+            <section>
+                <img src="/img/foto1.jpg" alt="Duelos" class="rounded-md">
+                <h2 class="py-3 text-xl font-bold text-center text-gray-700">Duelos</h2>
+                <p>Apesar de ser uma lei antiga, de 1889, desafiar alguém para um duelo ou duelar pode resultar em
+                    prisão,
+                    inclusive para quem apenas testemunhou o duelo. Aos duelistas, pena de 6 meses a 5 anos de
+                    prisão.Miyamoto Musashi e Sasaki Kojiro estariam presos se fosse nos dias de hoje. E por
+                    incrível
+                    que
+                    pareça, hoje em dia ainda tem gente que é presa por duelo</p>
+            </section>
+        </div>
 
-            <div>
-                <article>
-                    <img src="/img/foto2.jpg" alt="Insultos">
-                    <h2>Insultar aqueles que rejeitaram seu duelo</h2>
-                    <p>Esta lei emprega a palavra kettō (duelo), que remonta a época em que lutadores de espadas
-                        desafiavam
-                        uns
-                        aos outros nas noite de lua cheia. No entanto, esta lei centenária pode se aplicar hoje a
-                        qualquer
-                        desafio criado com antecedência onde as vidas dos concorrentes estão em perigo. Em termos
-                        práticos:
-                        Se
-                        alguém te insultar pelo fato de você ter se recusado a participar de uma sessão roleta russa,
-                        poderá
-                        ser
-                        processado por isso.</p>
-                </article>
-            </div>
-        </main>
+        <div class="p-5 text-white bg-gray-500 bg-opacity-50 rounded-md">
+            <section>
+                <img src="/img/foto2.jpg" alt="Insultos" class="rounded-md">
+                <h2 class="py-3 text-xl font-bold text-center text-gray-700">Insultar aqueles que rejeitaram seu duelo</h2>
+                <p>Esta lei emprega a palavra kettō (duelo), que remonta a época em que lutadores de espadas
+                    desafiavam
+                    uns
+                    aos outros nas noite de lua cheia. No entanto, esta lei centenária pode se aplicar hoje a
+                    qualquer
+                    desafio criado com antecedência onde as vidas dos concorrentes estão em perigo. Em termos
+                    práticos:
+                    Se
+                    alguém te insultar pelo fato de você ter se recusado a participar de uma sessão roleta russa,
+                    poderá
+                    ser
+                    processado por isso.</p>
+            </section>
+        </div>
+    </main>
 
+    <hr class="col-span-4 col-start-3">
 
-        <footer>
-            <button><a href="#" target="self">Visualizar os slides</a></button>
-        </footer>
-    </div>
+    <footer class="col-span-2 col-start-4 text-center">
+        <button class="p-2 mb-5 bg-red-600 rounded-md"><a href="#" target="self" class="text-white">Visualizar os slides</a></button>
+    </footer>
 </body>
 
 </html>
