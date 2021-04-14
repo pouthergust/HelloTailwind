@@ -17,6 +17,7 @@
 		font-family: 'UnifrakturCook', cursive;
 		-->
     <style>
+    @media only screen and (min-width: 640px) {
       .hide-scroll-bar {
                 -ms-overflow-style: none;
                 scrollbar-width: none;
@@ -41,6 +42,7 @@
                 border-radius: 10px;
                 /*outline: 1px solid slategrey;*/
             }
+    }
     </style>
 </head>
 
@@ -65,15 +67,15 @@
 
     <!-- <main class="grid col-span-6 col-start-2 gap-5 text-justify md:grid-cols-2 lg:col-span-4 lg:col-start-3"> -->
     <main class="flex flex-col col-span-6 col-start-2 text-justify lg:col-span-4 lg:col-start-3">
-        <div class="flex overflow-x-scroll flex-nowrap" id="journal-scroll">
+        <div class="flex overflow-x-scroll flex-nowrap " id="journal-scroll">
             <div class="flex flex-col m-auto p-auto hide-scroll-bar">
                       <div class="flex pb-10 overflow-x-scroll hide-scroll-bar"
                       >
-                        <div class="flex ml-10 flex-nowrap lg:ml-40 md:ml-20 hide-scroll-bar"
+                        <div class="flex flex-wrap ml-10 sm:flex-nowrap lg:ml-40 md:ml-20 hide-scroll-bar"
                         >
-                          <div class="inline-block px-3">
+                          <div class="inline-block p-4">
                             <div
-                              class="h-full p-5 text-white transition-shadow duration-300 ease-in-out bg-gray-500 bg-opacity-50 rounded-md shadow-md w-96 hover:shadow-xl"
+                              class="h-full p-5 text-white transition-shadow duration-300 ease-in-out bg-gray-500 bg-opacity-50 rounded-md shadow-md sm:w-96 hover:shadow-xl"
                             ><section>
                                 <img src="./img/foto1.jpg" alt="Duelos" class="rounded-md">
                                 <h2 class="py-3 text-xl font-bold text-center text-gray-700">Duelos</h2>
@@ -86,9 +88,9 @@
                                     pareça, hoje em dia ainda tem gente que é presa por duelo</p>
                             </section></div>
                           </div>
-                          <div class="inline-block px-3">
+                          <div class="inline-block p-4">
                             <div
-                              class="h-full p-5 text-white transition-shadow duration-300 ease-in-out bg-gray-500 bg-opacity-50 rounded-md shadow-md w-96 hover:shadow-xl"
+                              class="h-full p-5 text-white transition-shadow duration-300 ease-in-out bg-gray-500 bg-opacity-50 rounded-md shadow-md sm:w-96 hover:shadow-xl"
                             ><section>
                                 <img src="./img/foto2.jpg" alt="Insultos" class="rounded-md">
                                 <h2 class="py-3 text-xl font-bold text-center text-gray-700">Insultar aqueles que rejeitaram seu duelo</h2>
@@ -106,9 +108,9 @@
                                     processado por isso.</p>
                             </section></div>
                           </div>
-                          <div class="inline-block px-3">
+                          <div class="inline-block p-4">
                             <div
-                              class="h-full p-5 text-white transition-shadow duration-300 ease-in-out bg-gray-500 bg-opacity-50 rounded-md shadow-md w-96 hover:shadow-xl"
+                              class="h-full p-5 text-white transition-shadow duration-300 ease-in-out bg-gray-500 bg-opacity-50 rounded-md shadow-md sm:w-96 hover:shadow-xl"
                             ><section>
                                 <img src="./img/foto1.jpg" alt="Duelos" class="rounded-md">
                                 <h2 class="py-3 text-xl font-bold text-center text-gray-700">Duelos</h2>
@@ -121,11 +123,11 @@
                                     pareça, hoje em dia ainda tem gente que é presa por duelo</p>
                             </section></div>
                           </div>
-                          <div class="inline-block px-3">
+                          <div class="inline-block p-4">
                             <div
-                              class="h-full p-5 text-white transition-shadow duration-300 ease-in-out bg-gray-500 bg-opacity-50 rounded-md shadow-md w-96 w-80 hover:shadow-xl"
+                              class="h-full p-5 text-white transition-shadow duration-300 ease-in-out bg-gray-500 bg-opacity-50 rounded-md shadow-md sm:w-96 hover:shadow-xl"
                             ><section>
-                                <img src="./img/foto2.jpg" alt="Insultos" class="rounded-md">
+                                <img src="./img/foto2.jpg" alt="Insultos" class="rounded-md ">
                                 <h2 class="py-3 text-xl font-bold text-center text-gray-700">Insultar aqueles que rejeitaram seu duelo</h2>
                                 <p>Esta lei emprega a palavra kettō (duelo), que remonta a época em que lutadores de espadas
                                     desafiavam
